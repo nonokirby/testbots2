@@ -52,7 +52,7 @@ public class Robot extends TimedRobot {
   @Override
   public void robotInit() {
     m_robotContainer = new RobotContainer();  
-    m_colorMatcher.addColorMatch(RobotContainer.kBlueTarget);
+    m_colorMatcher.addColorMatch(Constants.kBlueTarget);
     m_colorMatcher.addColorMatch(RobotContainer.kGreenTarget);
     m_colorMatcher.addColorMatch(RobotContainer.kRedTarget);
     m_colorMatcher.addColorMatch(RobotContainer.kYellowTarget);    

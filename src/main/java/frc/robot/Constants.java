@@ -6,6 +6,7 @@
 /*----------------------------------------------------------------------------*/
 
 package frc.robot;
+import edu.wpi.first.wpilibj.util.Color;
 
 
 /**
@@ -15,15 +16,10 @@ package frc.robot;
  * floating around.
  */
 public final class Constants {
+public static Color kBlue = new Color(0,0,0);
+public static Color kOrange = new Color(0, 0, 0);
+public static Color kGreen = new Color(0, 0, 0);
 
-
-
-
-
-
-
-
-
-
-
+public int idGreen = 1;
+public int idBlue = 2;
 }
